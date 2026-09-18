@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       nama_siswa:
-        description: 'Imam Zulfi Akmal'
+        description: 'SISWA TJKT'
         required: true
-        default: 'Siswa TJKT'
+        default: 'Imam Zulfi Akmal'
 
 jobs:
   test:
