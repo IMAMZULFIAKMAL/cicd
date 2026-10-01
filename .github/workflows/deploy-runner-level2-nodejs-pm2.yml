@@ -34,7 +34,7 @@ jobs:
             skenario2-self-hosted-runner/level2-nodejs-pm2/app/package.json \
             /opt/level2-node-pm2/package.json
 
-          sudo chown -R fendy:fendy /opt/level2-node-pm2
+          sudo chown -R ubuntu:ubuntu /opt/level2-node-pm2
 
       - name: Install dependency
         run: |
